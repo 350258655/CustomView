@@ -16,7 +16,7 @@ import com.shake.customviews.R;
 
 /**
  * Created by shake on 17-5-9.
- * 购物车加减View
+ * 购物车加减View，属于自定义组合控件
  */
 public class NumberAddSubView extends LinearLayout implements View.OnClickListener {
 

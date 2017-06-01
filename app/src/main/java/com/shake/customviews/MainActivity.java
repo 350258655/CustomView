@@ -12,8 +12,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Button btnwheel = (Button) findViewById(R.id.btn_wheel);
         Button btnaddsub = (Button) findViewById(R.id.btn_add_sub);
         btnaddsub.setOnClickListener(this);
+        btnwheel.setOnClickListener(this);
 
     }
 
@@ -23,6 +25,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.btn_add_sub:
                 startActivity(new Intent(MainActivity.this,NumberAddSubActivity.class));
+                break;
+            case R.id.btn_wheel:
+                startActivity(new Intent(MainActivity.this,WheelActivity.class));
                 break;
         }
     }

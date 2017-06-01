@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".NumberAddSubActivity">
         </activity>
+        <activity android:name=".WheelActivity">
+        </activity>
     </application>
 
 </manifest>
