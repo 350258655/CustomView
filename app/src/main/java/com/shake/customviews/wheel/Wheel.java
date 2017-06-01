@@ -1,4 +1,4 @@
-package com.shake.customviews.bean;
+package com.shake.customviews.wheel;
 
 /**
  * Created by shake on 17-6-1.

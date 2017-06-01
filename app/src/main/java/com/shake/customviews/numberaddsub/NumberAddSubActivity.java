@@ -1,11 +1,11 @@
-package com.shake.customviews;
+package com.shake.customviews.numberaddsub;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.shake.customviews.wetget.NumberAddSubView;
+import com.shake.customviews.R;
 
 public class NumberAddSubActivity extends AppCompatActivity {
 

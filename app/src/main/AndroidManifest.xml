@@ -15,9 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".NumberAddSubActivity">
+        <activity android:name=".numberaddsub.NumberAddSubActivity">
         </activity>
-        <activity android:name=".WheelActivity">
+        <activity android:name=".wheel.WheelActivity">
         </activity>
     </application>
 

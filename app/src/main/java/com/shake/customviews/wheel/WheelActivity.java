@@ -1,7 +1,9 @@
-package com.shake.customviews;
+package com.shake.customviews.wheel;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.shake.customviews.R;
 
 public class WheelActivity extends AppCompatActivity {
 
