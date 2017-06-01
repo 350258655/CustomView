@@ -164,7 +164,7 @@ public class WheelView extends RelativeLayout implements ViewPager.OnPageChangeL
         tv_title.setText(titles[position]);
     }
 
-    // 回调方法,当viewpager的滑动状态改变时的回调
+    // 回调方法, 当viewpager的滑动状态改变时的回调
     // * @see ViewPager#SCROLL_STATE_IDLE : 闲置状态
     // * @see ViewPager#SCROLL_STATE_DRAGGING :拖动状态
     // * @see ViewPager#SCROLL_STATE_SETTLING: 固定状态
