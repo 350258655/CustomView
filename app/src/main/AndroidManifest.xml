@@ -19,6 +19,8 @@
         </activity>
         <activity android:name=".wheel.WheelActivity">
         </activity>
+        <activity android:name=".youku.YoukuMenuActivity">
+        </activity>
     </application>
 
 </manifest>
