@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.shake.customviews.numberaddsub.NumberAddSubActivity;
 import com.shake.customviews.wheel.WheelActivity;
+import com.shake.customviews.youku.YoukuMenuActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -17,8 +18,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         Button btnwheel = (Button) findViewById(R.id.btn_wheel);
         Button btnaddsub = (Button) findViewById(R.id.btn_add_sub);
+        Button btn_youku = (Button) findViewById(R.id.btn_youku);
         btnaddsub.setOnClickListener(this);
         btnwheel.setOnClickListener(this);
+        btn_youku.setOnClickListener(this);
 
     }
 
@@ -31,6 +34,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_wheel:
                 startActivity(new Intent(MainActivity.this,WheelActivity.class));
+                break;
+            case R.id.btn_youku:
+                startActivity(new Intent(MainActivity.this,YoukuMenuActivity.class));
                 break;
         }
     }
