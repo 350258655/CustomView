@@ -13,7 +13,7 @@ import com.shake.customviews.R;
 
 /**
  * Created by shake on 17-6-3.
- * 优酷菜单。视图都是图片做的，逻辑还是挺简单的
+ * 优酷菜单。视图都是图片做的，逻辑还是 挺简单的
  */
 public class YoukuMenu extends RelativeLayout implements View.OnClickListener, Animation.AnimationListener {
 
