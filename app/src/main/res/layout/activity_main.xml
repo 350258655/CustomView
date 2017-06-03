@@ -26,4 +26,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="优酷菜单"/>
+    <Button
+        android:id="@+id/btn_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下拉选择框"/>
 </LinearLayout>

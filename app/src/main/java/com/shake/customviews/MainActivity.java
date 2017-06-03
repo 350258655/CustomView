@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.shake.customviews.numberaddsub.NumberAddSubActivity;
+import com.shake.customviews.spinner.SpinnerActivity;
 import com.shake.customviews.wheel.WheelActivity;
 import com.shake.customviews.youku.YoukuMenuActivity;
 
@@ -19,9 +20,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btnwheel = (Button) findViewById(R.id.btn_wheel);
         Button btnaddsub = (Button) findViewById(R.id.btn_add_sub);
         Button btn_youku = (Button) findViewById(R.id.btn_youku);
+        Button btn_spinner = (Button) findViewById(R.id.btn_spinner);
         btnaddsub.setOnClickListener(this);
         btnwheel.setOnClickListener(this);
         btn_youku.setOnClickListener(this);
+        btn_spinner.setOnClickListener(this);
 
     }
 
@@ -37,6 +40,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_youku:
                 startActivity(new Intent(MainActivity.this,YoukuMenuActivity.class));
+                break;
+            case R.id.btn_spinner:
+                startActivity(new Intent(MainActivity.this,SpinnerActivity.class));
                 break;
         }
     }
