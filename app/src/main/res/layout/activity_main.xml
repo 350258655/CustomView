@@ -36,4 +36,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="自定义开关"/>
+    <Button
+        android:id="@+id/btn_cus_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="完全自定义开关"/>
 </LinearLayout>

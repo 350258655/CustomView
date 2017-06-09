@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".swtch.SwitchActivity">
         </activity>
+        <activity android:name=".toggle.ToggleButtonActivity">
+        </activity>
     </application>
 
 </manifest>
