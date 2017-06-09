@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.shake.customviews.numberaddsub.NumberAddSubActivity;
 import com.shake.customviews.spinner.SpinnerActivity;
+import com.shake.customviews.swtch.SwitchActivity;
 import com.shake.customviews.wheel.WheelActivity;
 import com.shake.customviews.youku.YoukuMenuActivity;
 
@@ -21,10 +22,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btnaddsub = (Button) findViewById(R.id.btn_add_sub);
         Button btn_youku = (Button) findViewById(R.id.btn_youku);
         Button btn_spinner = (Button) findViewById(R.id.btn_spinner);
+        Button btn_switch = (Button) findViewById(R.id.btn_switch);
         btnaddsub.setOnClickListener(this);
         btnwheel.setOnClickListener(this);
         btn_youku.setOnClickListener(this);
         btn_spinner.setOnClickListener(this);
+        btn_switch.setOnClickListener(this);
 
     }
 
@@ -43,6 +46,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_spinner:
                 startActivity(new Intent(MainActivity.this,SpinnerActivity.class));
+                break;
+            case R.id.btn_switch:
+                startActivity(new Intent(MainActivity.this,SwitchActivity.class));
                 break;
         }
     }
